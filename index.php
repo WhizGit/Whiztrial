@@ -61,7 +61,7 @@ if(isset($_REQUEST['commit']))
 <body>
   <section class="container">
     <div id="Ldiv1" class="login">
-      <h1>Login to WhizTrial</h1>
+      <h1>WhizTrial login</h1>
       <form method="post" action="index.php">
 	  <P><?php echo $error; ?></P>
         <p><input id="Lid" type="text" name="id"  placeholder="Username or Email"></p>
